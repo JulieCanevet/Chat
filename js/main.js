@@ -1,6 +1,6 @@
 var pseudo = prompt ('Quel est ton nom ?');
 var premierCaractere = pseudo.charAt(0);
-var reponses = ["ca va ?", "oui", "merci", "jsais pas et toi ?", "je t'aime pas"];
+var reponses = ["ca va ?", "oui tranks", "merci", "jsais pas et toi ?", "je t'aime pas"];
 var x = 0;
 
 // récuperer la 1ere lettre du pseudo
