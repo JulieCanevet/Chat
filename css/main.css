@@ -108,28 +108,31 @@ textarea {
 .header {
     background-color: white;
     box-shadow: 0 0 15px grey;
-    position: fixed;
+    margin-top: 0;
     width: 300px;
     height: 55px;
     display: flex;
 }
 
-header figure {
-    width: 20px;
-    height: 20px;
+
+figure {
+    width: 48px;
+    height: 48px;
     border-radius: 100%;
-    background-color: blue;
+    margin: 2px 15px auto 10px;
 }
 
 img {
     border-radius: 100%;
+    width: 100%;
     background-color: red;
 }
 
 /* historique des messages echangés dans le tchat */
 
-.tchat {
-    margin-top: 70px;
+#chat {
+    height: 300px;
+    overflow: auto;
 }
 
 .msg {
