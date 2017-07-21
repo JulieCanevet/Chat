@@ -37,6 +37,7 @@ $('#envoi').click(envoyer);
    	
    	$('.answer:last').html(reponses[x]);
    	x++;
+   	if(x == reponses.length){x = 0};
    	var scroll = document.getElementById('chat');
 	scroll.scrollTop = scroll.scrollHeight;
 
