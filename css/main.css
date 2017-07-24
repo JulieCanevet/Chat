@@ -99,15 +99,13 @@ textarea {
     width: 300px;
     height: 450px;
     margin: auto;
-    background-color: white;
     border: 1px solid black;
     margin-top: 2em;
-    background-image: linear-gradient(white, #D5D7CA);
 }
 
 /* description de la personne avec qui on dialogue */
 .header {
-    background-color: #79BBBA;
+    background-color: #F2183F;
     box-shadow: 0 0 15px grey;
     margin-top: 0;
     width: 300px;
@@ -121,7 +119,6 @@ figure {
     height: 48px;
     border-radius: 100%;
     margin: 2px 15px auto 10px;
-    border: 2px solid #4B9295;
 }
 
 img {
@@ -159,11 +156,11 @@ img {
 }
 
 .Y h3 {
-    background-color: #D7D36C;
+    background-color: #F44728;
 }
 
 .R h3 {
-    background-color: #ACAA11;
+    background-color: #F2183F;
 }
 
 /* message */
@@ -173,16 +170,16 @@ img {
 
 textarea {
     border-radius: 5px;
-    border: 1px solid white;
+    border: 1px solid #F2183F;
 }
 
 
 button {
  
     background-color: #D5D7CA;
-    border: 1px solid white;
+    border: 1px solid grey;
     border-radius: 5px;
-    color: white;
+    color: grey;
 }
 
 .message {
